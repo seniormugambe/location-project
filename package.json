@@ -1,0 +1,25 @@
+{
+  "name": "location-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vue-geolocation-api": "^0.1.21",
+    "vue-router": "^4.1.6",
+    "vue3-google-map": "^0.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^22.0.0",
+    "vite": "^4.3.4",
+    "vitest": "^0.31.0"
+  }
+}
